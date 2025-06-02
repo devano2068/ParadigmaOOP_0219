@@ -10,11 +10,11 @@ public:
     }
 };
 
-
-    {
-        cout << "Halo saya function dari derived Class";
-    }
-};
+class darivedClass : public baseclass
+{
+public:
+    void perkenalan()
+   
 
 int main()
 {
