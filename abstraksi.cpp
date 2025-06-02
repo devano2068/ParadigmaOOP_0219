@@ -1,13 +1,24 @@
 #include <iostream>
 using namespace std;
 
-
-
-int main()
+class AbstraksiKlas
 {
-    AbstraksiKlas ak;
-    ak.setXY("Yogyakarta", "Kampus");
-    ak.display();
+private:
+    string x, y;
 
-    return 0;
-}
+public:
+    //method untuk mengisi nilai
+    //private member
+    void setXY(string a, string b)
+    {
+        x = a;
+        y = b;
+    }
+    // menampilkan nilai
+    void display()
+    {
+        cout << "x =" << x << endl;
+        cout << "y =" << y << endl;
+    }
+};
+
