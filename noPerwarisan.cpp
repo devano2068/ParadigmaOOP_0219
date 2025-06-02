@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
 
-
-class darivedClass : public baseclass
+class baseclass final
 {
 public:
-    void perkenalan()
+    virtual void perkenalan()
     {
-        cout << "Halo saya function dari derived Class";
+        cout << "Halo saya function dari base class";
     }
 };
+
+
 
 int main()
 {
