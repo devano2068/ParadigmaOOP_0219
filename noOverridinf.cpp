@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-
-    {
-        cout << "Halo saya function dari base class";
-    }
-};
+class baseclass
+{
+public:
+    virtual void perkenalan() final
+  
 
 class darivedClass : public baseclass
 {
