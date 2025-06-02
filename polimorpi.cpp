@@ -10,14 +10,14 @@ public:
         cout << "Pesan dari seseorang" << endl;
     }
 };
-
-class lia : public seseorang
+class joko : public seseorang
 {
 void pesan()
     {
-        cout << "Pesan dari lia" << endl;
+        cout << "Pesan dari joko" << endl;
     }
 };
+
 
 int main()
 {
