@@ -10,13 +10,12 @@ public:
     }
 };
 
-
-
-int main()
+class darivedClass : public baseclass
 {
-    darivedClass a;
-    a.perkenalan();
+public:
+    void perkenalan()
+    {
+        cout << "Halo saya function dari derived Class";
+    }
+};
 
-    return 0;
-
-}
