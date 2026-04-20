@@ -1,5 +1,4 @@
 
-    float nilai;
 
     void printData(){
         cout << "NIM : " << nim << endl;
